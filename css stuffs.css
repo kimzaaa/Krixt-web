@@ -51,6 +51,7 @@ section .main .searchBx .query
     padding-left: 45px;
     padding-right: 60px;
     background-color: darkslategray;
+    
 }
 section .main .searchBx .icons
 {
@@ -79,9 +80,104 @@ section .main .searchBx .icons img
     border-radius: 4px;
     border: 1px solid solid transparent;
     outline: none;
+    position: relative;
+    bottom: -60px;
+    right: -10pc;
+
+}
+.discord
+{
+    width: 1;
+    margin:  0 50px;
+    margin-top: 20px;
+    padding: 5px 7px;
+    color: #ccc;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 1px solid solid transparent;
+    outline: none;
+    position: relative;
+    bottom: -5px;
+    left: 5.25pc;
+    border-radius: 360px;
+
+}
+.youtube
+{
+    width: 1;
+    margin:  0 50px;
+    margin-top: 20px;
+    padding: 5px 7px;
+    color: #ccc;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 1px solid solid transparent;
+    outline: none;
+    position: relative;
+    bottom: -5px;
+    left: -7.75pc;
+    border-radius: 360px;
+
+}
+.gmail
+{
+    width: 1;
+    margin:  0 50px;
+    margin-top: 20px;
+    padding: 5px 7px;
+    color: #ccc;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 1px solid solid transparent;
+    outline: none;
+    position: relative;
+    bottom: 3.75pc;
+    left: 7pc;
+    border-radius: 360px;
+
+}
+.facebook
+{
+    width: 1;
+    margin:  0 50px;
+    margin-top: 20px;
+    padding: 5px 7px;
+    color: #ccc;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 1px solid solid transparent;
+    outline: none;
+    position: relative;
+    bottom: 3.75pc;
+    left: 2pc;
+    border-radius: 360px;
 
 }
 .searchBtn:hover
+{
+    border: 1px solid #ccc;
+}
+.discord:hover
+{
+    border: 1px solid #ccc;
+}
+.youtube:hover
+{
+    border: 1px solid #ccc;
+}
+.gmail:hover
+{
+    border: 1px solid #ccc;
+}
+.facebook:hover
 {
     border: 1px solid #ccc;
 }
